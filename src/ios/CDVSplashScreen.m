@@ -101,7 +101,7 @@
     _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:topActivityIndicatorStyle];
 
     // add padding to (top) spinner (75% vertical height)
-    _activityView.center = CGPointMake(parentView.bounds.size.width / 2, (parentView.bounds.size.height / 2) + (parentView.bounds.size.height / 4));
+    _activityView.center = CGPointMake(parentView.bounds.size.width / 2, parentView.bounds.size.height * 85 / 100);
     
     _activityView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin
         | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
